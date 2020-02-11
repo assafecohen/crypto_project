@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import WelcomeMessage from './WelcomeMessage';
 import styled, { css } from 'styled-components';
+import WelcomeMessage from './WelcomeMessage';
+import AppLayout from './AppLayout';
 
 function App() {
   return (
     <div className='App'>
-      <WelcomeMessage />
+      <AppLayout>
+        <WelcomeMessage />
+      </AppLayout>
     </div>
   );
 }
