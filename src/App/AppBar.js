@@ -18,6 +18,7 @@ const ControlButtonElm = styled.div`
     props.active &&
     css`
       text-shadow: 0px 0px 60px #03ff03;
+      color: pink;
     `}
 `;
 function toProperCase(lower) {
