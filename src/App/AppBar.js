@@ -43,7 +43,7 @@ const AppBar = () => {
       <Logo> CryptoDash</Logo>
       <div></div>
       <ControlButton name='dashboard' />
-      <ControlButton name='setting' />
+      <ControlButton name='settings' />
     </Bar>
   );
 };

@@ -21,7 +21,6 @@ class AppProvider extends Component {
     this.setState({ coinList });
   };
   confirmFavorites = () => {
-    console.log('111');
     this.setState({
       firstVisit: false,
       page: 'dashboard'
