@@ -2,7 +2,6 @@ import React from 'react';
 import { AppContext } from '../App/AppProvider';
 
 export default function({ name, children }) {
-  console.log(name);
   return (
     <AppContext.Consumer>
       {({ page }) => {
